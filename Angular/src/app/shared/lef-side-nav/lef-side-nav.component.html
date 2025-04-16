@@ -1,4 +1,4 @@
-<div class="d-flex flex-column vh-100 bg-dark text-white p-3" style="width: 250px;">
+<!-- <div class="d-flex flex-column vh-100 bg-dark text-white p-3" style="width: 250px;">
     <h4 class="mb-4">HR Module</h4>
     
     <a routerLink="/dashboard" class="text-white mb-2 nav-link">Dashboard</a>
@@ -7,5 +7,71 @@
     <a routerLink="/attendance" class="text-white mb-2 nav-link">Attendance Report</a>
     <a routerLink="/reports" class="text-white mb-2 nav-link">Reports</a>
     <a routerLink="/settings" class="text-white mb-2 nav-link">Settings</a>
+  </div>
+   -->
+
+
+   
+
+
+
+   <div class="d-flex flex-column vh-100 bg-dark text-white p-3" style="width: 250px; height: 200vh; overflow-y: auto;margin: 0; position: fixed;  left: 0;">
+    <!-- Profile Section -->
+    <div class="text-center mb-4">
+      <img src="https://via.placeholder.com/80" class="rounded-circle mb-2" width="80" height="10">
+      <h6 class="mb-0">Amar Dighe</h6>
+      <small class="text-muted">HOD IT</small>
+    </div>
+  
+    <!-- Static Dashboard -->
+    <a routerLink="/dashboard" class="text-white mb-3 nav-link">Dashboard</a>
+  
+    <!-- Sidebar Accordion -->
+    <div class="accordion accordion-flush" id="sidebarMenu">
+  
+      <!-- Masters -->
+      <div class="accordion-item bg-dark border-0">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#mastersMenu">
+            Masters
+          </button>
+        </h2>
+        <div id="mastersMenu" class="accordion-collapse collapse" data-bs-parent="#sidebarMenu">
+          <div class="accordion-body p-2">
+            <a routerLink="/employees" class="text-white d-block mb-1">Employee Master</a>
+            <a routerLink="/departments" class="text-white d-block mb-1">Holiday Calendar</a>
+            <a routerLink="/settings" class="text-white d-block mb-1">Settings</a>
+            <a routerLink="/teamComposition" class="text-white d-block mb-1"> Team composition</a>
+            <a routerLink="/GMC" class="text-white d-block mb-1">GMC</a>
+            
+           
+          </div>
+        </div>
+      </div>
+  
+  
+  
+      <!-- HR -->
+      <div class="accordion-item bg-dark border-0">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#hrMenu">
+            HR
+          </button>
+        </h2>
+        <div id="hrMenu" class="accordion-collapse collapse" data-bs-parent="#sidebarMenu">
+          <div class="accordion-body p-2">
+            <a routerLink="/attendance" class="text-white d-block mb-1">Timesheet Update</a>
+            <a routerLink="/leave-management" class="text-white d-block mb-1">Daily Report</a>
+            <a routerLink="/leave-management" class="text-white d-block mb-1">Employee Attendance
+              Report
+              </a>
+
+            <a routerLink="/leave-management" class="text-white d-block mb-1">Daily Report</a>
+
+          </div>
+        </div>
+      </div>
+      
+    </div>
   </div>
   
