@@ -8,5 +8,10 @@ import { RouterLink } from '@angular/router';
   styleUrl: './lef-side-nav.component.css'
 })
 export class LefSideNavComponent {
+user = {
+  name: 'Vaishnavi',
+  department: 'HR',
+  profileImage: 'https://img.icons8.com/?size=100&id=52883&format=png&color=FFFFFF'
+};
 
 }
