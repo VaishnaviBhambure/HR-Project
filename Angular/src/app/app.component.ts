@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from "./shared/header/header.component";
+import { HeaderComponent } from "./features/header/header.component";
 import { LefSideNavComponent } from "./shared/lef-side-nav/lef-side-nav.component";
 
 @Component({
