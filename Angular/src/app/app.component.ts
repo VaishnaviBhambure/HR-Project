@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./shared/header/header.component";
 import { LefSideNavComponent } from "./shared/lef-side-nav/lef-side-nav.component";
 
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, LefSideNavComponent],
