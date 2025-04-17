@@ -6,6 +6,6 @@ import { OtpComponent } from './features/otp/otp.component';
 
 export const routes: Routes = [
     {path: 'dashboard',component: DashboardComponent},
-    { path:'login',component:LoginComponent},
+    { path:'',component:LoginComponent},
     {path:'otp',component:OtpComponent}
 ];
