@@ -1,5 +1,5 @@
 .accordion-button::after {
-  filter: invert(1); /* makes the arrow icon white */
+  filter: invert(1);
 }
 
 .accordion-button:not(.collapsed) {
@@ -30,9 +30,11 @@ a.nav-link:hover,
 }
 
 .sidebar {
-  box-shadow: 5px 0 10px rgba(255, 255, 255, 0.1); /* soft light shadow on right */
-  z-index: 1030; /* stays on top */
+  box-shadow: 5px 0 10px rgba(255, 255, 255, 0.1); 
+  z-index: 1030;
 }
+
+
 
 
 
