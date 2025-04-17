@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../../services/api.service';
+import { LefSideNavComponent } from '../../../shared/lef-side-nav/lef-side-nav.component';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [],
+  imports: [LefSideNavComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
